@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*::selection {
+    color: purple;
+}
+.home {
+    background-image: url("images/back-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.home .title {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.home .title h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.home .title h3 {
+    color: goldenrod;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+.home .biography {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+}
+.home .biography p {
+    font-style: italic;
+    line-height: 2;
+    word-spacing: 2px;
+}
+.adore {
+    margin-top: 300px;
+    text-align: center;
+}
+.adore-head {
+    margin-bottom: 50px;
+}
+.adore h2 {
+    text-transform: capitalize;
+    color: goldenrod;
+}
+.adore h5 {
+    text-transform: capitalize;
+    color: white;
+    margin-top: 20px;
+}
+.adore .list {
+    text-align: center;
+    border: 2px solid goldenrod;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.adore .list h4{
+    margin-bottom: 50px;
+    color: black;
+    padding: 20px;
+    background-color: goldenrod;
+}
+.adore .list p {
+    margin-top: 50px;
+    color: white;
+    background-color: goldenrod;
+    padding: 20px;
+}
+.adore .list .hard-working {
+    width: 516px;
+    height: 260.150px;
+}
+.adore .list .ador-images:hover {
+    opacity: 0.7;
+}
+ .biography-list {
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    
+}
+.biography-list ul {
+    text-align: center;
+    list-style-position: inside;
+    border: 5px solid goldenrod;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.biography-list ul li {
+    margin-bottom: 10px;
+}
+.biography-list h2 {
+    text-transform: capitalize;
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+.footer {
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.footer p {
+    padding: 50px;
+    margin: 0;
+}
+.footer p .heart {
+    color: red;
+}
+.footer p span {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .home {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .home .biography {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .adore .list {
+        margin-bottom: 50px;
+    }
+    .biography-list ul {
+        width: 100%;
+    }
+  }
